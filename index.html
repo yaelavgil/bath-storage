@@ -345,69 +345,107 @@ li b{color:var(--ink)}
 </div>
 
 <h2>מקלחת כללית — הילדים</h2>
-<p class="lede">כאן הבעיה אחרת. נופר ענתה במפורש: <em>״בצד לא יהיה מקום למגבות, רק לאחסון של דני, ואולי עדיף סגור״</em> — כלומר המגבות עדיין בלי בית.</p>
+<p class="lede">חמש דרישות, קיר אחד: שלוש מגירות לילדים, מסתור כביסה, מגבות, אקסטרות — וארון ליד המראה למוצרי שיער ופנים.</p>
 
-<div class="card">
-  <h3>מה יש שם היום</h3>
+<div class="meas">
+  <dl>
+    <dt>רוחב הארון</dt><dd>≈<b>209</b> — <em>משורטט</em>: מקיר המקלחון עד הקיר הימני. תואם ל״מעל 180״ של נופר</dd>
+    <dt>כיול</dt><dd>רשת אריחי החיפוי 60×120 — ארבעה מרווחים זהים; הקיר כולו יוצא <b>301</b> = חמישה אריחים בדיוק</dd>
+    <dt>מרכז הכיור</dt><dd>≈<b>104.5</b> — בדיוק באמצע הארון</dd>
+    <dt>המראה</dt><dd>אובלית, מ-≈<b>61</b> עד ≈<b>150</b> לאורך הארון</dd>
+    <dt>קיר פנוי מימין למראה</dt><dd>≈<b>59</b> — עד הקיר</dd>
+  </dl>
+</div>
+
+<div class="card pick">
+  <span class="badge">הצעה</span>
+  <h3>שלושה תאים של 70 + ארון קיר מימין למראה</h3>
+  <p class="lede">כל אחת מחמש הדרישות מקבלת מקום משלה, בלי עמודה ובלי לגזול רוחב.</p>
+  <figure>
+  <svg viewBox="0 0 330 256" role="img" aria-label="חזית מקלחת כללית — הצעה">
+    <defs><pattern id="tileK" width="17.5" height="35" patternUnits="userSpaceOnUse">
+      <rect width="17.5" height="35" fill="var(--surface2)"/><path d="M0 0H17.5M0 0V35" stroke="var(--line)" stroke-width=".4"/></pattern></defs>
+    <rect x="15" y="10" width="301" height="230" fill="url(#tileK)"/>
+    <!-- shower zone -->
+    <rect x="15" y="10" width="92" height="230" fill="var(--surface2)" opacity=".55"/>
+    <rect x="40" y="46" width="24" height="3" fill="var(--ink3)"/><line x1="52" y1="38" x2="52" y2="46" stroke="var(--ink3)" stroke-width="1.5"/>
+    <text x="61" y="130" font-size="7.5" fill="var(--ink3)" text-anchor="middle">מקלחון</text>
+    <line x1="107" y1="30" x2="107" y2="240" stroke="var(--ink3)" stroke-width="1.4"/>
+    <!-- oval mirror -->
+    <ellipse cx="212.5" cy="88" rx="44.5" ry="27" fill="var(--surface)" stroke="var(--cab)" stroke-width="1.6"/>
+    <text x="212.5" y="91" font-size="7" fill="var(--ink3)" text-anchor="middle">מראה</text>
+    <!-- wall cabinet right of mirror -->
+    <rect x="262" y="52" width="50" height="74" fill="var(--cab)"/>
+    <line x1="262" y1="89" x2="312" y2="89" stroke="var(--cab2)" stroke-width="1"/>
+    <text x="287" y="72" font-size="6.2" fill="#fff" text-anchor="middle">שיער</text>
+    <text x="287" y="81" font-size="6.2" fill="#fff" text-anchor="middle">ופנים</text>
+    <text x="287" y="110" font-size="5.6" fill="#fff" text-anchor="middle">של דני</text>
+    <!-- counter -->
+    <rect x="107" y="148" width="209" height="6" fill="var(--stone)" stroke="var(--line2)" stroke-width=".6"/>
+    <!-- carcass (floating) -->
+    <rect x="107" y="154" width="209" height="72" fill="var(--cab)"/>
+    <line x1="177" y1="154" x2="177" y2="226" stroke="var(--cab2)" stroke-width="1.2"/>
+    <line x1="246" y1="154" x2="246" y2="226" stroke="var(--cab2)" stroke-width="1.2"/>
+    <!-- sunken basin, middle bay -->
+    <rect x="185" y="148" width="53" height="6" fill="var(--surface)"/>
+    <rect x="187" y="154" width="49" height="14" rx="6" fill="var(--surface)" stroke="var(--line2)" stroke-width=".9"/>
+    <line x1="177" y1="184" x2="246" y2="184" stroke="var(--cab2)" stroke-width="1" stroke-dasharray="3 2"/>
+    <text x="211.5" y="178" font-size="5.5" fill="#cbd3dd" text-anchor="middle">סיפון</text>
+    <text x="211.5" y="200" font-size="6.5" fill="#fff" text-anchor="middle">מסתור</text>
+    <text x="211.5" y="211" font-size="6.5" fill="#fff" text-anchor="middle">כביסה</text>
+    <!-- left bay: extras over towels -->
+    <line x1="107" y1="178" x2="177" y2="178" stroke="var(--cab2)" stroke-width="1.2"/>
+    <text x="142" y="169" font-size="6.5" fill="#fff" text-anchor="middle">אקסטרות</text>
+    <text x="142" y="206" font-size="6.5" fill="#fff" text-anchor="middle">מגבות</text>
+    <!-- right bay: three kids' drawers -->
+    <line x1="246" y1="178" x2="316" y2="178" stroke="var(--cab2)" stroke-width="1.2"/>
+    <line x1="246" y1="202" x2="316" y2="202" stroke="var(--cab2)" stroke-width="1.2"/>
+    <text x="281" y="169" font-size="6.5" fill="#fff" text-anchor="middle">גור</text>
+    <text x="281" y="193" font-size="6.5" fill="#fff" text-anchor="middle">לילי</text>
+    <text x="281" y="217" font-size="6.5" fill="#fff" text-anchor="middle">דני</text>
+    <!-- dims -->
+    <line x1="107" y1="248" x2="316" y2="248" stroke="var(--ink3)" stroke-width=".6"/>
+    <text x="211.5" y="255" font-size="7.5" fill="var(--ink3)" text-anchor="middle">≈209</text>
+    <text x="142" y="236" font-size="6" fill="var(--ink3)" text-anchor="middle">70</text>
+    <text x="211.5" y="236" font-size="6" fill="var(--ink3)" text-anchor="middle">69</text>
+    <text x="281" y="236" font-size="6" fill="var(--ink3)" text-anchor="middle">70</text>
+  </svg>
+  </figure>
   <table>
-    <tr><th>ארון</th><td>לפי המדידה של נופר — <b>מעל 180</b>, אחרת אין מדפים על השיש</td></tr>
-    <tr><th>מדפים</th><td>שני מדפים ב-<b>H=120</b> על הקיר שמעל האסלה</td></tr>
-    <tr><th>חיפוי</th><td>60×120 ג.פ. ספאטולה וואיט · ריצוף 22.3×22.3 SIROCCO BLOOM</td></tr>
-    <tr><th>פרזול</th><td>בלאק מטאל — ⚠️ בפועל הגיע שחור ולא גרפיט</td></tr>
+    <tr><th>תא</th><th>למעלה</th><th>למטה</th></tr>
+    <tr><td>שמאל · ליד המקלחון · 70</td><td>אקסטרות — מברשות, משחות, סבונים, בקבוקים</td><td>מגבות</td></tr>
+    <tr><td>אמצע · מתחת לכיור · 69</td><td colspan="2">מסתור כביסה — מתחת לסיפון</td></tr>
+    <tr><td>ימין · ליד הקיר · 70</td><td colspan="2">שלוש מגירות — גור, לילי, דני</td></tr>
+    <tr><td>ארון קיר · ≈50</td><td colspan="2">מימין למראה — סבון פנים של דני, מסרקים, גומיות, קרם לשיער</td></tr>
   </table>
-  <p class="cap">המידות כאן חלקיות — הפריסה נותנת 92 בלבד כמידה מודפסת. לפני שמזמינים נגרות צריך מדידה בשטח.</p>
 </div>
 
 <div class="card">
-  <span class="badge n">אפשרות</span>
-  <h3>מגירה לכל ילד + המגבות למעלה</h3>
-  <p class="lede">הרעיון שלך — מגירה לכל ילד — נשאר. המגבות עוברות לשני המדפים שכבר מתוכננים ב-H=120, בסלסלות סגורות.</p>
-  <figure>
-  <svg viewBox="0 0 230 250" role="img" aria-label="חזית מקלחת כללית, מגירות ומדפים">
-    <rect x="16" y="6" width="198" height="222" fill="url(#tile)"/>
-    <rect x="30" y="52" width="170" height="7" fill="var(--cab)"/>
-    <rect x="30" y="92" width="170" height="7" fill="var(--cab)"/>
-    <text x="115" y="46" font-size="7.5" fill="var(--ink2)" text-anchor="middle">שני מדפים H=120 — סלסלות מגבות</text>
-    <ellipse cx="115" cy="122" rx="30" ry="21" fill="var(--surface)" stroke="var(--cab)" stroke-width="1.4"/>
-    <rect x="16" y="150" width="198" height="6" fill="var(--stone)" stroke="var(--line2)" stroke-width=".6"/>
-    <rect x="16" y="156" width="198" height="72" fill="var(--cab)"/>
-    <line x1="16" y1="180" x2="214" y2="180" stroke="var(--cab2)" stroke-width="1.2"/>
-    <line x1="16" y1="204" x2="214" y2="204" stroke="var(--cab2)" stroke-width="1.2"/>
-    <text x="115" y="173" font-size="7" fill="#fff" text-anchor="middle">גור</text>
-    <text x="115" y="197" font-size="7" fill="#fff" text-anchor="middle">לילי</text>
-    <text x="115" y="221" font-size="7" fill="#fff" text-anchor="middle">דני</text>
-    <line x1="16" y1="240" x2="214" y2="240" stroke="var(--ink3)" stroke-width=".6"/>
-    <text x="115" y="248" font-size="8" fill="var(--ink3)" text-anchor="middle">מעל 180</text>
-  </svg>
-  </figure>
-  <p class="cap">שלוש מגירות רוחב מלא — אחת לכל ילד. בלי ארון צד, בלי לגזול רוחב.</p>
+  <h3>למה כל דבר איפה שהוא</h3>
+  <ul>
+    <li><b>מגבות ליד המקלחון.</b> יוצאים מהמקלחת ומושיטים יד. מעליהן האקסטרות — מה שמגיעים אליו ליד הכיור.</li>
+    <li><b>הכביסה מתחת לכיור</b> — אותו היגיון כמו בהורים: התא היחיד שממילא לא יקבל מגירות בגלל הסיפון. בתא של 69 יש מקום ל<b>סל כפול</b> — בהיר וכהה בנפרד, שימושי למשפחה עם שלושה ילדים.</li>
+    <li><b>שלוש מגירות ברוחב 70 מלא</b> — כל ילד מקבל מגירה של 70×43, בערך 22 גובה. לא חצי מגירה, לא מדף.</li>
+    <li><b>ארון הקיר מימין למראה, לא משמאל.</b> משמאל יש רק 61 ס״מ והוא צמוד לקיר המקלחון — ארון שם נרטב מהמקלחת ועלול להתנגש בזכוכית. מימין יש 59 ס״מ עד הקיר, יבש.</li>
+  </ul>
+  <p class="cap" style="margin-top:10px">
+    זה גם עונה על מה שנופר אמרה — <em>״בצד לא יהיה מקום למגבות, רק לאחסון של דני, ואולי עדיף סגור״</em>.
+    אין פה עמודה בצד בכלל: המגבות מקבלות תא משלהן, ומה שהיה הולך לארון הצד של דני עולה לארון הקיר הסגור.
+  </p>
 </div>
 
 <div class="card">
-  <span class="badge n">אפשרות</span>
-  <h3>ארון צד סגור + מגירות צרות</h3>
-  <p class="lede">מה שהצעת לנופר. עמודה סגורה בקצה לחומרי ניקוי ולאחסון של דני, והמגירות מתקצרות בהתאם.</p>
-  <figure>
-  <svg viewBox="0 0 230 250" role="img" aria-label="חזית מקלחת כללית עם ארון צד">
-    <rect x="16" y="6" width="198" height="222" fill="url(#tile)"/>
-    <rect x="30" y="52" width="122" height="7" fill="var(--cab)"/>
-    <rect x="30" y="92" width="122" height="7" fill="var(--cab)"/>
-    <ellipse cx="91" cy="122" rx="28" ry="20" fill="var(--surface)" stroke="var(--cab)" stroke-width="1.4"/>
-    <rect x="158" y="40" width="56" height="188" fill="var(--cab)"/>
-    <line x1="158" y1="120" x2="214" y2="120" stroke="var(--cab2)" stroke-width="1"/>
-    <text x="186" y="84" font-size="7" fill="#fff" text-anchor="middle">חומרי</text>
-    <text x="186" y="94" font-size="7" fill="#fff" text-anchor="middle">ניקוי</text>
-    <text x="186" y="178" font-size="7" fill="#fff" text-anchor="middle">דני</text>
-    <rect x="16" y="150" width="142" height="6" fill="var(--stone)" stroke="var(--line2)" stroke-width=".6"/>
-    <rect x="16" y="156" width="142" height="72" fill="var(--cab)"/>
-    <line x1="16" y1="192" x2="158" y2="192" stroke="var(--cab2)" stroke-width="1.2"/>
-    <text x="87" y="179" font-size="7" fill="#fff" text-anchor="middle">גור</text>
-    <text x="87" y="215" font-size="7" fill="#fff" text-anchor="middle">לילי</text>
-    <line x1="16" y1="240" x2="214" y2="240" stroke="var(--ink3)" stroke-width=".6"/>
-    <text x="115" y="248" font-size="8" fill="var(--ink3)" text-anchor="middle">מעל 180</text>
-  </svg>
-  </figure>
-  <p class="cap">⚠️ נופר כבר אמרה שבצד לא יהיה מקום למגבות — רק לאחסון של דני. כלומר האפשרות הזאת עולה במגירה אחת ועדיין לא פותרת את המגבות.</p>
+  <h3>ושני המדפים שכבר מתוכננים</h3>
+  <p class="lede">בפריסה יש שני מדפים ב-<b>H=120</b> על הקיר שמעל האסלה. הם נשארים — מקום טוב למגבות רזרביות, או לסלסלה של נייר טואלט.</p>
+</div>
+
+<div class="note">
+  <b>שלוש הנחות שכדאי לוודא</b>
+  <ul>
+    <li><b>כיור שקוע</b> — הנחתי כמו בהורים. בפריסה הכיור מצויר מונח. אם הוא נשאר מונח, סל הכביסה מקבל עוד ~10 ס״מ גובה.</li>
+    <li><b>רוחב 209</b> משורטט מהפריסה, לא מודפס. לפני שגולן חותך צריך מדידה בשטח מקיר המקלחון לקיר.</li>
+    <li><b>עומק</b> — הנחתי 47 כמו בהורים. אותו צוואר לסל הכביסה: ~43 פנימי.</li>
+  </ul>
 </div>
 
 <h2>מה צריך למדוד לפני שסוגרים</h2>
@@ -416,7 +454,7 @@ li b{color:var(--ink)}
     <li><b>גובה השיש בהורים.</b> הנחתי 86. אם הוא אחר, ה-110 של תחתית ארון המראה זז בהתאם.</li>
     <li><b>כמה השקע בולט מהקיר.</b> קופסה שקועה או חצי-שקועה — קובע אם 12 ס״מ עומק מספיקים או שצריך 15.</li>
     <li><b>רוחב השוקת בהורים.</b> קובע אם המגירה העליונה שורדת.</li>
-    <li><b>מקלחת כללית — רוחב מדויק.</b> ״מעל 180״ זה מה שנופר אמרה; לנגרות צריך מספר.</li>
+    <li><b>מקלחת כללית — לאשר 209 בשטח.</b> המספר משורטט מרשת האריחים ומתאים ל״מעל 180״ של נופר, אבל לנגרות צריך מדידה.</li>
   </ul>
 </div>
 
